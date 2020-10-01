@@ -1,4 +1,13 @@
 import os
+from pathlib import Path
+
+def make_directory_tree(pathname):
+	"""
+	Creats  hierarchical paths
+	"""
+	path = Path(pathname)
+	path.mkdir(parents = True, exist_ok = True)
+
 
 def get_directory_list(folderpath,sort = True,verbose = True):
 	"""

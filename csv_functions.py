@@ -22,6 +22,9 @@ def openCSVfile(filepath):
 
 
 def csvTojson(csvfile,jsonfile,verbose = True):
+	"""
+	COnverts a csv to json
+	"""
 	graph = {}
 	
 	rows = openCSVfile(filepath)
