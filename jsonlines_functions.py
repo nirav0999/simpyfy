@@ -41,3 +41,6 @@ def append_json_object(jsonobject,filepath,  verbose = True):
 		writer.write(jsonobject)
 
 	if verbose == True : print('Done append')
+
+if __name__ == '__main__':
+	pass
