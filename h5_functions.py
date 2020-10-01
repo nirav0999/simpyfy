@@ -8,3 +8,7 @@ def convertToJsonNumpy(filepath):
 		data = hf.get(key).value
 		dict1[key] = data
 	return dict1
+
+
+if __name__ == '__main__':
+	main()
